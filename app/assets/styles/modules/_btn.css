@@ -20,4 +20,8 @@
         padding: .5rem .9rem;
         margin-bottom: 10px;
     }
+    &--green{
+        background-image: linear-gradient(to right top, #8bc63f, #76bc40, #60b242, #4aa843, #319e44);
+    }
+    
 }

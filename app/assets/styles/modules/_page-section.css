@@ -22,24 +22,14 @@
     }
 
     &--blue {
-        background-color: $mainBlue;
-        color: #fff;
+        background-color: #fff;
+        color: #333;
         
-          @mixin at1010 {
-                background: url('../../assets/images/office1.jpg') top center no-repeat;
-                background-size: cover;  
-        }
     }
 
     &--testimonials {
 
-        background-color: #e0e6ef;
-
-        @mixin at1010 {
-            &.lazyloaded {
-                background: url('../../assets/images/meeting.jpg') top center no-repeat;
-                background-size: cover;
-            }
-        }
+        background-color: #fff;
+        color: #333;
     }
 }
